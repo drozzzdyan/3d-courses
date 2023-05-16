@@ -1,0 +1,369 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1110px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 690px;
+  }
+
+  .courses_background {
+    background-position: right 117px;
+    background-image: url('../img/courses-decoration-img-330w-350h.png');
+  }
+
+  .courses__header {
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+
+  .courses__content {
+    padding-top: 130px;
+    padding-bottom: 137px;
+  }
+
+  .courses__descr {
+    padding-right: 45px;
+  }
+
+  .advantage {
+    margin-bottom: 75px;
+  }
+
+  .advantage__wrapper {
+    padding-left: 255px;
+  }
+
+  .advantage_background {
+    background-image: url("../img/advantage-decoration-211w-187h.png");
+  }
+
+  .advantage__cards-descr {
+    padding: 0;
+    padding-top: 91px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+
+  .teachers {
+    padding-bottom: 48px;
+  }
+
+  .teachers__card {
+    margin-bottom: 24px;
+  }
+
+  .named-cards__header {
+    margin-bottom: 8px;
+  }
+
+  .named-cards__descr {
+    margin-right: -2px;
+  }
+
+  .card-3d {
+    min-height: 556px;
+    padding-right: 24px;
+  }
+
+  .card-3d__timing {
+    right: 25px;
+  }
+
+  .card-3d__btn {
+    padding: 20.5px 50px;
+    max-width: 195px;
+  }
+
+  .card-3d_card1 {
+    background-image: url('/img/lessons/lessons-card1-330w-180h.jpg');
+  }
+
+  .card-3d_card2 {
+    background-image: url('/img/lessons/lessons-card2-330w-180h.jpg');
+  }
+
+  .card-3d_card3 {
+    background-image: url('/img/lessons/lessons-card3-330w-180h.jpg');
+  }
+
+  .card-3d_card4 {
+    background-image: url('/img/lessons/lessons-card4-330w-180h.jpg');
+  }
+}
+
+@media (max-width: 672px) {
+  .container {
+    max-width: 510px;
+  }
+
+  .main-header__container {
+    padding: 30px 10px;
+    min-height: 133px;
+    flex-direction: column;
+  }
+
+  .main-logo {
+    margin-bottom: auto;
+  }
+
+  .main-header__nav {
+    margin-left: 0;
+  }
+
+  .courses_background {
+    background-image: none;
+  }
+
+  .courses__content {
+    padding-top: 77px;
+  }
+
+  .courses__descr {
+    padding-right: 0;
+  }
+
+  .advantage {
+    margin-bottom: 55px;
+  }
+
+  .advantage_background {
+    background-image: url('../img/advantage-decoration-150w-134h.png');
+    background-position: 15px top;
+  }
+
+  .advantage__wrapper {
+    padding-left: 195px;
+    padding-right: 15px;
+  }
+
+  .advantage__header {
+    margin-bottom: 17px;
+  }
+
+  .advantage__wrapper {
+    margin-bottom: 23px;
+  }
+
+  .teachers {
+    padding-top: 74px;
+    margin-bottom: 73px;
+  }
+
+  .named-cards__header {
+    margin-bottom: 11px;
+  }
+
+  .sub-subheading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .lessons__header {
+    margin-bottom: 25px;
+  }
+
+  .card-3d {
+    padding-right: 30px;
+    min-height: 653px;
+  }
+
+  .card-3d__header {
+    margin-bottom: 9px;
+  }
+
+  .card-3d_card1 {
+    background-image: url('/img/lessons/lessons-card1-240w-180h.jpg');
+  }
+
+  .card-3d_card2 {
+    background-image: url('/img/lessons/lessons-card2-240w-180h.jpg');
+  }
+
+  .card-3d_card3 {
+    background-image: url('/img/lessons/lessons-card3-240w-180h.jpg');
+  }
+
+  .card-3d_card4 {
+    background-image: url('/img/lessons/lessons-card4-240w-180h.jpg');
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 290px;
+  }
+
+  .subheading {
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .burger {
+    display: block;
+    z-index: 1001;
+  }
+
+  .burger_close .burger__line_1 {
+    background-color: transparent;
+  }
+
+  .burger_close .burger__line_2 {
+    top: calc(50% + 3px);
+    transform: rotate(45deg);
+  }
+
+  .burger_close .burger__line_3 {
+    transform: rotate(-45deg);
+    bottom: 3px;
+  }
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+  .main-header__nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 30px;
+    padding-top: 120px;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--main-dark-blue-color);
+    visibility: hidden;
+    transform: translateX(-120%);
+    transition: transform .4s ease-in-out, visibility .4s ease-in-out;
+  }
+
+  .nav_open {
+    /* display: block; */
+    transform: none;
+    visibility: visible;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav__list-element:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .nav__link {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .main-header__container {
+    padding: 15px 0;
+    min-height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-logo {
+    margin-bottom: -5px;
+  }
+
+  .burger {
+    margin-right: 5px;
+  }
+
+  .courses {
+    margin-bottom: 50px;
+  }
+
+  .courses__content {
+    padding-top: 50px;
+    padding-bottom: 49px;
+  }
+
+  .courses__header {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .courses__descr {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .courses__btn {
+    padding: 21px 53.5px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .advantage {
+    margin-bottom: 20px;
+  }
+
+  .advantage__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .advantage_background {
+    background-image: none;
+  }
+
+  .advantage__header {
+    margin-bottom: 2px;
+  }
+
+  .advantage__card1,
+  .advantage__card2,
+  .advantage__card3 {
+    flex-direction: row;
+  }
+
+  .advantage__cards-descr {
+    padding-top: 3px;
+    padding-left: 110px;
+    padding-bottom: 30px;
+  }
+
+  .teachers {
+    padding-top: 45px;
+    padding-bottom: 24px;
+    margin-bottom: 41px;
+  }
+
+  .teachers__card {
+    margin-bottom: 23px;
+  }
+
+  .lessons {
+    margin-bottom: 20px;
+  }
+
+  .card-3d__header {
+    padding-right: 22px;
+  }
+
+  .card-3d_card1 {
+    background-image: url('/img/lessons/lessons-card1-290w-180h.jpg');
+  }
+
+  .card-3d_card2 {
+    background-image: url('/img/lessons/lessons-card2-290w-180h.jpg');
+  }
+
+  .card-3d_card3 {
+    background-image: url('/img/lessons/lessons-card3-290w-180h.jpg');
+  }
+
+  .card-3d_card4 {
+    background-image: url('/img/lessons/lessons-card4-290w-180h.jpg');
+  }
+}
