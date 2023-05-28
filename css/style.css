@@ -369,19 +369,19 @@ body {
 }
 
 .card-3d_card1 {
-  background-image: url('/img/lessons/lessons-card1.jpg');
+  background-image: url('../img/lessons/lessons-card1.jpg');
 }
 
 .card-3d_card2 {
-  background-image: url('/img/lessons/lessons-card2.jpg');
+  background-image: url('../img/lessons/lessons-card2.jpg');
 }
 
 .card-3d_card3 {
-  background-image: url('/img/lessons/lessons-card3.jpg');
+  background-image: url('../img/lessons/lessons-card3.jpg');
 }
 
 .card-3d_card4 {
-  background-image: url('/img/lessons/lessons-card4.jpg');
+  background-image: url('../img/lessons/lessons-card4.jpg');
 }
 
 .card-3d__timing {
